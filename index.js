@@ -44,6 +44,7 @@ function loopThroughObj(obj){
   // Use for...in
 }
 
+// loopThroughObj(oneBook);
 
 
 // BONUS: Loop through the array of books using a while loop
