@@ -10,15 +10,21 @@ let oneBook = {
 // TODO: Complete the function. Create a For loop that loops through and prints numbers 1 to 10
 function loopThroughNumbers(){
   // create a for loop with an initialization, stopping condition & an iteration statement
-
+  for (let i = 1; i <= 10; i++) {
+    console.log(i);
+  }
 }
-
+loopThroughNumbers();
 // loopThroughNumbers();
 
 // TODO: Complete the function. Loop and print through numbers 1 to 10 in reverse order
 function loopThroughNumbersReverse(){
-
-}
+    for (let i = 10; i >= 1; i--) {
+      console.log(i);
+    }
+  }
+  
+  loopThroughNumbersReverse();
 
 // loopThroughNumbersReverse();
 
@@ -26,12 +32,17 @@ function loopThroughNumbersReverse(){
 // TODO: Complete the function. Loop through the books array and print every element
 function loopThroughBooks(arr){
   // create a for loop that loops through any array of books and logs each element to the console
-
+  function loopThroughBooks(arr) {
+    for (let i = 0; i < arr.length; i++) {
+      console.log(arr[i]);
+    }
+  }
 }
 
-// loopThroughBooks(books);
-
+loopThroughBooks(books);([1,2,3,4,5,6,7,8,9])
+//loopThroughBooks(books);
 // TODO: Complete the function. Loop through the books array and print every element using for...of
+
 function loopThroughBooks2(arr){
 
 }
