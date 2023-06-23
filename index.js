@@ -39,7 +39,7 @@ function loopThroughBooks(arr){
   }
 }
 
-loopThroughBooks(books);([1,2,3,4,5,6,7,8,9])
+loopThroughBooks(books);
 //loopThroughBooks(books);
 // TODO: Complete the function. Loop through the books array and print every element using for...of
 
